@@ -3,6 +3,7 @@
   justify-content: flex-end;
   align-items: flex-start;
   gap: 8px;
+  transition: color 250ms ease-in-out;
 }
 .menuItem:hover {
   cursor: pointer;
