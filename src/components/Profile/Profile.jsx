@@ -1,10 +1,11 @@
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import css from './Profile.module.css';
+import Container from '../components-structure/Container/Container';
 
 export default function Profile({ name, tag, location, image, stats }) {
   return (
-    <div className={css.container}>
+    <Container variant={'profileContainer'}>
       <div className={css.imgWrap}>
         <div className={css.img}>
           <img src={image} alt="User avatar" />
@@ -28,7 +29,7 @@ export default function Profile({ name, tag, location, image, stats }) {
           <span className={css.bold}>{stats.likes}</span>
         </li>
       </ul>
-    </div>
+    </Container>
   );
 }
 
