@@ -1,55 +1,69 @@
-.container {
-    border-radius: 8px;
-    border: 2px black solid;
-    min-width: 320px;
-    max-width: 767px;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 1.29;
-    letter-spacing: 0.02em;
-    overflow: hidden;
-}
 .imgWrap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0;
+}
+@media (min-width: 768px) {
+  .imgWrap {
+    min-width: 300px;
+  }
 }
 .img {
-    width: 160px;
-    border-radius: 50%;
-    overflow: hidden;
-    background-color: rgb(78, 13, 13);
-    margin-bottom: 16px;
+  width: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: var(--light-primary-color);
+  margin-bottom: 16px;
 }
 .name {
-    font-size: 32px;
-    font-weight: 700;
-    margin-bottom: 16px;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 16px;
 }
 .subtitle {
-    display: block;
-    color: grey;
+  display: block;
+  color: var(--light-tertiary-color);
 }
 .tag {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 .list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    background-color: rgb(219, 219, 219);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: var(--dark-secondary-color);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+@media (min-width: 768px) {
+  .list {
+    grid-template-columns: repeat(1, 1fr);
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 12px;
+  }
 }
 .item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    padding: 16px;
-    border-top: 2px grey solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 16px;
+}
+@media (min-width: 768px) {
+  .item {
+    justify-content: center;
+  }
 }
 .item:not(:last-child) {
-    border-right: 2px grey solid;
+  border-right: 2px var(--dark-color) solid;
+}
+@media (min-width: 768px) {
+  .item:not(:last-child) {
+    border-right: 0;
+    border-bottom: 2px var(--dark-tertiary-color) solid;
+  }
 }
 .bold {
-    font-weight: 700;
+  font-weight: 700;
+  color: var(--light-tertiary-color);
 }
