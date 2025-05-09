@@ -5,7 +5,7 @@ import css from './FriendListItem.module.css';
 export default function FriendListItem({ avatar, name, isOnline }) {
   return (
     <div className={css.friendItem}>
-      <img src={avatar} alt="Avatar" width="48" />
+      <img className={css.img} src={avatar} alt="Avatar" width="24" />
       <p className={css.subtitle}>{name}</p>
       <p className={clsx(css.status, isOnline ? css.isOnline : css.isOffline)}>
         {isOnline ? 'Online' : 'Offline'}
