@@ -17,7 +17,11 @@ export default function Sidebar() {
         <MenuItem hwTitle="Components and styling." status={true} link="./">
           <PiNumberSquareOneLight size="20" />
         </MenuItem>
-        <MenuItem hwTitle="State and life cycle." status={false} link="">
+        <MenuItem
+          hwTitle="State and life cycle."
+          status={false}
+          link="https://goit-neo-react-hw-module2-azure.vercel.app/"
+        >
           <PiNumberSquareTwoLight size="20" />
         </MenuItem>
         <MenuItem hwTitle="Forms." status={false} link="">
