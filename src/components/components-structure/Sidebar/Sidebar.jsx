@@ -24,7 +24,11 @@ export default function Sidebar() {
         >
           <PiNumberSquareTwoLight size="20" />
         </MenuItem>
-        <MenuItem hwTitle="Forms." status={false} link="">
+        <MenuItem
+          hwTitle="Forms."
+          status={false}
+          link="https://goit-neo-react-hw-module3-mocha-one.vercel.app/"
+        >
           <PiNumberSquareThreeLight size="20" />
         </MenuItem>
         <MenuItem hwTitle="Hooks." status={false} link="">
