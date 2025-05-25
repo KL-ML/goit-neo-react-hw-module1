@@ -31,7 +31,11 @@ export default function Sidebar() {
         >
           <PiNumberSquareThreeLight size="20" />
         </MenuItem>
-        <MenuItem hwTitle="Hooks." status={false} link="">
+        <MenuItem
+          hwTitle="Hooks."
+          status={false}
+          link="https://goit-neo-react-hw-module4-psi-nine.vercel.app/"
+        >
           <PiNumberSquareFourLight size="20" />
         </MenuItem>
         <MenuItem hwTitle="Routing." status={false} link="">
