@@ -38,7 +38,11 @@ export default function Sidebar() {
         >
           <PiNumberSquareFourLight size="20" />
         </MenuItem>
-        <MenuItem hwTitle="Routing." status={false} link="">
+        <MenuItem
+          hwTitle="Routing."
+          status={false}
+          link="https://goit-neo-react-hw-module5-nu-ten.vercel.app/"
+        >
           <PiNumberSquareFiveLight size="20" />
         </MenuItem>
         <MenuItem hwTitle="Redux basics." status={false} link="">
