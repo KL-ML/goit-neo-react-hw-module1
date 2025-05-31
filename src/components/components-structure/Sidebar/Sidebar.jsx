@@ -45,7 +45,11 @@ export default function Sidebar() {
         >
           <PiNumberSquareFiveLight size="20" />
         </MenuItem>
-        <MenuItem hwTitle="Redux basics." status={false} link="">
+        <MenuItem
+          hwTitle="Redux basics."
+          status={false}
+          link="https://goit-neo-react-hw-module6-beta-lovat.vercel.app/"
+        >
           <PiNumberSquareSixLight size="20" />
         </MenuItem>
         <MenuItem hwTitle="Asynch. Redux, memoization." status={false} link="">
