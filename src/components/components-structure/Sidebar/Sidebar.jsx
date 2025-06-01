@@ -52,7 +52,11 @@ export default function Sidebar() {
         >
           <PiNumberSquareSixLight size="20" />
         </MenuItem>
-        <MenuItem hwTitle="Asynch. Redux, memoization." status={false} link="">
+        <MenuItem
+          hwTitle="Asynch. Redux, memoization."
+          status={false}
+          link="https://goit-neo-react-hw-module7-mu-one.vercel.app/"
+        >
           <PiNumberSquareSevenLight size="20" />
         </MenuItem>
       </ul>
